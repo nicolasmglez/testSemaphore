@@ -1,2 +1,9 @@
 ---
-- n
+- name: Prueba con fichero
+  hosts: apache
+  tasks:
+  - name: Mandar un fichero
+    ansible.builtin.copy:
+    src: /home/usuSemaphore/archivo.txt
+    dest: /tmp
+    mode: '0644'
