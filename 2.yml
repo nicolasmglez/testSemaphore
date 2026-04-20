@@ -5,5 +5,5 @@
   - name: Mandar un fichero
     ansible.builtin.copy:
       src: /home/usuSemaphore/archivo.txt
-      dest: /tmp
+      dest: /tmp/archivoSemaphore.txt
       mode: '0644'
