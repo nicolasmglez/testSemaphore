@@ -1,0 +1,7 @@
+---
+- name: Prueba de ping
+  hosts: all
+  tasks:
+  - name: Hacer ping
+    ansible.builtin.debug:
+      msg: "Hola"
