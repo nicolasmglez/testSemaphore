@@ -6,4 +6,6 @@
     ansible.builtin.copy:
       src: /home/usuSemaphore/archivo.txt
       dest: /tmp/archivoSemaphore.txt
+      owner: usuGenerico
+      group: usuGenerico
       mode: '0644'
