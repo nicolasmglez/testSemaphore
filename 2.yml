@@ -4,6 +4,6 @@
   tasks:
   - name: Mandar un fichero
     ansible.builtin.copy:
-    src: /home/usuSemaphore/archivo.txt
-    dest: /tmp
-    mode: '0644'
+      src: /home/usuSemaphore/archivo.txt
+      dest: /tmp
+      mode: '0644'
